@@ -5,4 +5,64 @@
 
 body {
     background-color: #eff2f5;
+    max-width: 950px;
+    margin: auto;
+}
+
+.user-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user-item {
+    width: 450px;
+    margin: 10px;
+}
+
+.user-item-card {
+    display: flex;
+    justify-content: center;
+}
+
+.user-item-media {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px 0 0 15px;
+    background-color: #E6687E;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.media-name {
+    font-weight: bold;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 0 15px 15px 0;
+    background-color: white;
+}
+label {
+    align-self: center;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #E6687E;
+}
+
+span {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.content-title {
+    font-size: 14px;
+    color: lightslategray;
 }
